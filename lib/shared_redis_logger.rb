@@ -14,6 +14,7 @@ module SharedRedisLogger
   end
 
   class Logger
+    attr_accessor :level
 
     def initialize
       @app_name = Rails.application.class.parent_name.downcase
@@ -48,10 +49,6 @@ module SharedRedisLogger
         entries << f.value
       end
       return entries
-    end
-
-    def level=(level)
-      # do nothing for now
     end
 
     # when logging, we make a stored copy (for later digging) and
