@@ -50,7 +50,7 @@ module SharedRedisLogger
       return entries
     end
 
-    def level=
+    def level=(level)
       # do nothing for now
     end
 
