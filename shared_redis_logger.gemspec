@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.description = "Send Rails 3 logs to Redis (across multiple apps) for common development aggregation."
   s.email = "zhubert@gmail.com"
   s.extra_rdoc_files = ["README.rdoc", "lib/shared_redis_logger.rb"]
-  s.files = ["README.rdoc", "Rakefile", "lib/shared_redis_logger.rb", "Manifest", "shared_redis_logger.gemspec"]
+  s.files = ["README.rdoc", "Rakefile", "lib/shared_redis_logger.rb", "shared_redis_logger.gemspec"]
   s.homepage = "http://github.com/zhubert/shared_redis_logger"
   s.rdoc_options = ["--line-numbers", "--inline-source", "--title", "Shared_redis_logger", "--main", "README.rdoc"]
   s.require_paths = ["lib"]
