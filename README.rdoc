@@ -1,0 +1,5 @@
+= SharedRedisLogger
+
+Send Rails 3 logs to Redis (across multiple apps) for common development aggregation.
+
+Not ready for primetime yet.  Conceptual sketch.
