@@ -8,7 +8,7 @@ Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'shared_redis_logger'
+    gem 'shared_redis_logger', :git => 'git://github.com/zhubert/shared_redis_logger', :group => :development
 
 And then execute:
 
