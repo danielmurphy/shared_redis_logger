@@ -50,6 +50,10 @@ module SharedRedisLogger
       return entries
     end
 
+    def level=
+      # do nothing for now
+    end
+
     # when logging, we make a stored copy (for later digging) and
     # publish out to any listening clients
     def log_entry(message, level)
