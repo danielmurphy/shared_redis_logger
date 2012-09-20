@@ -1,3 +1,4 @@
+require "shared_redis_logger/version"
 require 'redis'
 
 # with inspiration from:
