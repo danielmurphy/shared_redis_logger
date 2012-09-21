@@ -3,6 +3,10 @@ SharedRedisLogger
 
 Send Rails 3 logs to Redis (across multiple apps) for common development aggregation.
 
+Use something like [log_window](http://github.com/zhubert/log_window) to watch the logs in realtime in the browser.
+
+Helpful if you use [Pow](http://pow.cx/) and don't want to open term windows all the time.
+
 Installation
 ---------------
 
